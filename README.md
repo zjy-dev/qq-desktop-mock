@@ -62,6 +62,3 @@ $ make watch
 
 Made with :heart: by <a href="https://github.com/zjy-dev" target="_blank">zjy-dev</a>
 
-&#xa0;
-
-<a href="#top">Back to top</a>
