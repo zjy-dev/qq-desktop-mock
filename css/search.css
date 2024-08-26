@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #000000;
+  height: 100vh;
+  display: grid;
+  grid-template-areas: "nav search      menu " "nav chat_option main ";
+  grid-template-columns: 60px 280px 1fr;
+  grid-template-rows: 66px 1fr;
+}
+
+.search {
+  grid-area: search;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 10px;
+}
+.search .search__input-container {
+  border-radius: 4px;
+  background-color: rgb(245, 245, 245);
+  width: 208px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 10px;
+}
+.search .search__input-container svg {
+  width: 20px;
+  height: 20px;
+  stroke: rgb(180, 180, 180);
+}
+.search .search__input-container .search__input {
+  padding-left: 6px;
+  flex: 1;
+  border: none;
+  outline: none;
+  background-color: rgb(245, 245, 245);
+}
+.search .search__input-container .search__input::placeholder {
+  color: rgb(153, 153, 153);
+}
+.search .search__add-button {
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(245, 245, 245);
+  width: 30px;
+  height: 30px;
+}
+.search .search__add-button svg {
+  width: 20px;
+  height: 20px;
+  stroke: rgb(180, 180, 180);
+}
+.search .search__add-button:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+/*# sourceMappingURL=search.css.map */
