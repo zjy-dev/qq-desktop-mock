@@ -31,7 +31,7 @@
 │   ├── menu.scss         # 右上方的菜单栏
 │   ├── nav.scss          # 左侧的导航栏
 │   ├── search.scss       # 左上方的消息搜索栏
-│   └── style.scss
+│   └── style.scss        # 通用样式和整体的布局
 │
 ├── img                   # 存放一些头像图片
 │   ├── avatar-1.jpg      # 用户的第一个好友的头像 
@@ -62,6 +62,3 @@ $ make watch
 
 Made with :heart: by <a href="https://github.com/zjy-dev" target="_blank">zjy-dev</a>
 
-&#xa0;
-
-<a href="#top">Back to top</a>
