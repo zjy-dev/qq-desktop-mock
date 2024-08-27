@@ -1,9 +1,9 @@
 
-<h1 align="center">QQ Desktop前端模仿(学习目的)</h1>
+<h1 align="center">QQ 桌面端聊天界面模仿(学习目的)</h1>
 
 ## :dart: 项目介绍 ##
 
-用html和scss模仿的QQ Desktop的前端, **无任何js代码!!!**
+用 HTML 和 Scss 模仿的 QQ 桌面端的聊天界面, **无任何js代码!!!**
 
 **仅用于学习目的!!!**
 
