@@ -52,7 +52,7 @@
 $ make sass
 
 # 热更新
-$ make watch
+$ make sass-watch
 ```
 
 ## :memo: License ##
